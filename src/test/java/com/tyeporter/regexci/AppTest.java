@@ -14,7 +14,7 @@ public class AppTest {
 	public void testForLetters() {
 		int matches = findMatches("at", "cat, hat, bat, bob");
 
-		assertEquals(4, matches);
+		assertEquals(3, matches);
 	}
 
 	// =========================================================
