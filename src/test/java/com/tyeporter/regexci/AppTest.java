@@ -17,6 +17,13 @@ public class AppTest {
 		assertEquals(3, matches);
 	}
 
+	@Test
+	public void testForNumbers() {
+		int matches = findMatches("512", "512-111-1111, 512-222-2222, 412-333-3333");
+
+		assertEquals(3, matches);
+	}
+
 	// =========================================================
     // HELPER METHODS
     // =========================================================
