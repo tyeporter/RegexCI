@@ -58,6 +58,15 @@ public class AppTest {
 		assertEquals(3, matches);
 	}
 
+	@Test
+	public void testForNor() {
+		int matches = findMatchForEach("[^ap]", new String[]{
+			"tap", "app", "map", "zap"
+		});
+
+		assertEquals(3, matches);
+	}
+
 	// =========================================================
     // HELPER METHODS
     // =========================================================
