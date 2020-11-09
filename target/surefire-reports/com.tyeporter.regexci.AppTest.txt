@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tyeporter.regexci.AppTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in com.tyeporter.regexci.AppTest
-testForOr  Time elapsed: 0.011 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <4> but was: <3>
-	at com.tyeporter.regexci.AppTest.testForOr(AppTest.java:58)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.tyeporter.regexci.AppTest

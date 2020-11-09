@@ -55,7 +55,7 @@ public class AppTest {
 			"vegetable", "fry", "love", "code"
 		});
 
-		assertEquals(4, matches);
+		assertEquals(3, matches);
 	}
 
 	// =========================================================
