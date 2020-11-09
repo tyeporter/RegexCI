@@ -49,6 +49,15 @@ public class AppTest {
 		assertEquals(2, matches);
 	}
 
+	@Test
+	public void testForOr() {
+		int matches = findMatchForEach("[aeiou]", new String[]{
+			"vegetable", "fry", "love", "code"
+		});
+
+		assertEquals(4, matches);
+	}
+
 	// =========================================================
     // HELPER METHODS
     // =========================================================
