@@ -46,7 +46,7 @@ public class AppTest {
 			"This is another sentence."
 		});
 
-		assertEquals(3, matches);
+		assertEquals(2, matches);
 	}
 
 	// =========================================================
