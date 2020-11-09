@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.tyeporter.regexci.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in com.tyeporter.regexci.AppTest
+testForLetters  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <3>
+	at com.tyeporter.regexci.AppTest.testForLetters(AppTest.java:17)
+
