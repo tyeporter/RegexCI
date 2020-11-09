@@ -64,7 +64,7 @@ public class AppTest {
 			"tap", "app", "map", "zap"
 		});
 
-		assertEquals(4, matches);
+		assertEquals(3, matches);
 	}
 
 	// =========================================================
